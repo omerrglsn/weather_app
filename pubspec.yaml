@@ -1,0 +1,39 @@
+name: weather_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.1 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+  # Location
+  geocoding: ^2.0.5
+  geolocator: ^9.0.2
+
+  # State
+  get: ^4.6.5
+
+  # Network
+  http: ^0.13.5
+
+  intl: ^0.17.0
+  sleek_circular_slider: ^2.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/weather/
+    - assets/icons/
